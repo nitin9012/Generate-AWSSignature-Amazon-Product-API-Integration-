@@ -1,0 +1,6 @@
+framework module Pods_AWSProductAPIIntegration {
+  umbrella header "Pods-AWSProductAPIIntegration-umbrella.h"
+
+  export *
+  module * { export * }
+}
