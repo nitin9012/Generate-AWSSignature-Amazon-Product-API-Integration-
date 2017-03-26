@@ -12,3 +12,14 @@ http://docs.aws.amazon.com/AWSECommerceService/latest/GSG/Welcome.html
 
 To use AWS product API in iOS app create an AWS account using this link https://portal.aws.amazon.com/billing/signup?redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation
 
+After that get AWSAccessKey, AssociateTag, AWSSecretKey from your AWS account and add your credential inside this function
+
+    func getAmazonAccountCredentials()->(String,String,String){
+        let AWSAccessKey = "-----"
+        let AssociateTag = "-----"
+        let AWSSecretKey = "----"
+        
+        return (AWSAccessKey,AssociateTag,AWSSecretKey)
+        
+    }
+
