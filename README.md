@@ -44,6 +44,10 @@ After that get AWSAccessKey, AssociateTag, AWSSecretKey from your AWS account an
    for more information about response group plese refer to this link
    http://docs.aws.amazon.com/AWSECommerceService/latest/DG/CHAP_ResponseGroupsList.html
    
+Here i am using itemSeach operation there are many operation available it AWS product API change it according to your own requirement.
+
+For more infromation please refer to this link:- 
+   http://docs.aws.amazon.com/AWSECommerceService/latest/DG/CHAP_OperationListAlphabetical.html
   
   
     func itemSearchUsingBrowseId(_ page:String,browseNodeId:String,serachIndex:String,sorting:String,maximumPrice:String,minimumPrice:String) -> [String:AnyObject]{
