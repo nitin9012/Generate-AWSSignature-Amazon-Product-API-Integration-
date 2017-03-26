@@ -18,7 +18,7 @@ In this example i have implemeted how to genrate AWS signature for amazon produc
 
 First write this code inside your podfile
 
-platform :ios, '9.0'
+<br> platform :ios, '9.0'
 use_frameworks!
 source 'https://github.com/CocoaPods/Specs.git'
 
@@ -27,7 +27,7 @@ target 'AWSProductAPIIntegration' do
      pod 'AWSCore'
      pod ‘SWXMLHash’
 end
-
+<br>
 
 After that get AWSAccessKey, AssociateTag, AWSSecretKey from your AWS account and add your credential inside this function
 
