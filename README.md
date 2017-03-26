@@ -1,8 +1,8 @@
 # Generate-AWSSignature-Amazon-Product-API-Integration-
 
-In this example , I have implemented how to integration amazon product api on iOS using swift 3.0
+In this example , I have implemented how to integrate amazon product api on iOS using swift 3.0
 
-What is Amazon Product API ?
+# What is Amazon Product API ?
 
 Amazon provided the API through which we can access the products data like (Product name, image,prices) from amazon database and diplay this in our app.
 
@@ -13,7 +13,7 @@ http://docs.aws.amazon.com/AWSECommerceService/latest/DG/Welcome.html
 To use AWS product API in iOS app create an AWS account using this link https://portal.aws.amazon.com/billing/signup?redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation
 
 
-In this example i have implemeted how to genrate AWS signature for amazon product API.
+# In this example i have implemeted how to genrate AWS signature for amazon product API.
 
 
 First write this code inside your podfile
@@ -39,7 +39,7 @@ After that get AWSAccessKey, AssociateTag, AWSSecretKey from your AWS account an
         
     }
     
-   If you see this code your can see i am using "ResponseGroup":"OfferSummary,Images,Medium,VariationSummary" you can change reponse group according to your requirement.
+   If you see this code you can see i am using "ResponseGroup":"OfferSummary,Images,Medium,VariationSummary" you can change reponse group according to your requirement.
    
    for more information about response group plese refer to this link
    http://docs.aws.amazon.com/AWSECommerceService/latest/DG/CHAP_ResponseGroupsList.html
