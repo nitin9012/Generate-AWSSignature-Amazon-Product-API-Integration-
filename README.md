@@ -39,9 +39,9 @@ After that get AWSAccessKey, AssociateTag, AWSSecretKey from your AWS account an
         
     }
     
-   If you see this code you can see i am using "ResponseGroup":"OfferSummary,Images,Medium,VariationSummary" you can change reponse group according to your requirement.
+   If you see the code below you can see i am using "ResponseGroup":"OfferSummary,Images,Medium,VariationSummary" you can change reponse group according to your requirement.
    
-   for more information about response group plese refer to this link
+ For more information about response group plese refer to this link
    http://docs.aws.amazon.com/AWSECommerceService/latest/DG/CHAP_ResponseGroupsList.html
    
 Here i am using itemSeach operation there are many operation available it AWS product API change it according to your own requirement.
