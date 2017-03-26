@@ -10,5 +10,5 @@ For more info please go through this link
 
 http://docs.aws.amazon.com/AWSECommerceService/latest/GSG/Welcome.html
 
-To user AWS product API in iOS app create an AWS account using this link https://portal.aws.amazon.com/billing/signup?redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation
+To use AWS product API in iOS app create an AWS account using this link https://portal.aws.amazon.com/billing/signup?redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation
 
